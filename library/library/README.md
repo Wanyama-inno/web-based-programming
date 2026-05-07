@@ -1,7 +1,7 @@
 Demo Credentials
 for admin the email is nalutaaya@gmail.com
 password is nalutaaya
-
+for student create an account
 create database called library
 and then import the database called library.sql
 
