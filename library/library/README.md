@@ -1,10 +1,9 @@
-# 📚 LibraryOS — Library Management System v2
 
-A fully functional, production-ready web-based Library Management System built with PHP, MySQL, HTML5, and CSS3.
 
-## 🗂 Complete File Structure
 
-```
+
+Complete File Structure
+
 library/
 ├── .htaccess               ← Apache security & custom 404
 ├── index.php               ← Public home page
@@ -29,22 +28,18 @@ library/
 └── includes/
     ├── header.php          ← Top nav + full CSS design system
     └── footer.php          ← JS helpers + footer
-```
 
-## ⚙️ Setup
 
-1. Copy `library/` folder to your web root (e.g. `htdocs/library/`)
+ Setup
+
+1. Copy `library/` folder to your web root 
 2. Edit `config/database.php` with your MySQL credentials
 3. Visit `http://localhost/library/` — database auto-initialises
 
-## 🔑 Demo Credentials
-
-| Role    | Email                 | Password |
-|---------|-----------------------|----------|
-| Admin   | admin@library.com     | admin123 |
-| Student | Register a new account | your own |
-
-## 🗄️ Tables Auto-Created
+Demo Credentials
+for admin the email is nalutaaya@gmail.com
+password is nalutaaya
+ Tables Auto-Created
 
 - `users` — with phone, student_id, avatar_color
 - `books` — with cover_color
@@ -53,7 +48,7 @@ library/
 - `fine_settings` — configurable rate/cap/grace
 - `activity_log` — full audit trail
 
-## ✅ Security
+Security
 
 - Prepared statements everywhere (no SQL injection)
 - bcrypt password hashing
