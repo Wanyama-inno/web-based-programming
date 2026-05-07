@@ -1,6 +1,9 @@
+Demo Credentials
+for admin the email is nalutaaya@gmail.com
+password is nalutaaya
 
-
-
+create database called library
+and then import the database called library.sql
 
 Complete File Structure
 
@@ -36,10 +39,9 @@ library/
 2. Edit `config/database.php` with your MySQL credentials
 3. Visit `http://localhost/library/` — database auto-initialises
 
-Demo Credentials
-for admin the email is nalutaaya@gmail.com
-password is nalutaaya
- Tables Auto-Created
+
+
+ Tables Created
 
 - `users` — with phone, student_id, avatar_color
 - `books` — with cover_color
